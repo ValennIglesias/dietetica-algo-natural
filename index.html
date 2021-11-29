@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,37 +8,51 @@
     integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
   <link rel="shortcut icon" href="multimedia/logohtml.png">
   <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <script src="js/scripts.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <meta name="keywords" content="dietetica, productos saludables, frutos secos,">
-  <meta name="description" content="Somos una tienda de productos naturales, como frutas secas, cereales, legumbres, semillas, especias. Te esperamos en nuestra sucursal">
-
+  <meta name="description"
+    content="Somos una tienda de productos naturales, como frutas secas, cereales, legumbres, semillas, especias. Te esperamos en nuestra sucursal">
   <title>Algo Natural | Dietetica</title>
 </head>
-
 <body>
   <header class=barraNavegacion>
     <section class="logos">
       <div><a href="index.html"><img id="logo" src=multimedia/logo.jpg alt="Logo tienda"></a></div>
       <div class="iconosNav">
-        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class=" bi bi-chat-left-text"
-          viewBox="0 0 16 16">
-          <path
-            d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
-          <path
-            d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-cart"
-          viewBox="0 0 16 16">
-          <path
-            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-person"
-          viewBox="0 0 16 16">
-          <path
-            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
-        </svg>
+        <div class="subMenu__iconos" data-dropdown>
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+            class="mi__icono icono__consulta bi bi-chat-left-text" data-dropdown-button viewBox="0 0 16 16">
+            <path
+              d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+            <path
+              d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+          </svg>
+          <div class="subMenu__contenido">
+            011-1234-5678
+            consultas@algonatural.com
+          </div>
+        </div>
+        <div class="subMenu__iconos" data-dropdown>
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+            class="mi__icono icono__usuario bi bi-person" data-dropdown-button viewBox="0 0 16 16">
+            <path
+              d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+          </svg>
+          <div class="subMenu__contenido">
+            <p><a class="cuenta__usuario" href="pages/inicio_sesion.html">Iniciar Sesion</a></p>
+            <p><a class="cuenta__usuario" href="pages/registro.html">Registrate</a></p>
+          </div>
+        </div>
+        <div class="subMenu__iconos">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+            class="mi__icono bi bi-cart" viewBox="0 0 16 16">
+            <path
+              d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+          </svg>
+        </div>
       </div>
     </section>
   </header>
@@ -47,7 +60,6 @@
   <section class="barraNav">
     <nav class="navIndex navbar navbar-expand-lg navbar-light bg-light ">
       <div class="barraIndex container-fluid ">
-
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -69,16 +81,11 @@
             <li class="nav-item">
               <a class="nav__item " href="pages/contacto.html">Contacto</a>
             </li>
-            <li class="nav-item">
-              <a class="nav__item" href="pages/404.html">Seccion en desarrollo</a>
-            </li>
           </ul>
         </div>
       </div>
     </nav>
   </section>
-
-
   <div><img class="imgFondo" src="multimedia/slide.jpg" alt=""></div>
   <section class="destacados">
     <div>
@@ -109,51 +116,54 @@
       </button>
     </div>
   </section>
-
-
   <section class="noticias">
     <div>
       <h2>
         Newsteler
       </h2>
     </div>
-
     <div>
       <p>
         ¿Desea recibir las ultimas ofertas?
       </p>
     </div>
-
-    <div><label for="email">
-        <input class="emailNoticias" type="email" placeholder="Email">
-      </label>
-      <label for="enviar">
-        <button type="submit" class="enviarNoticias btn btn-light">Enviar</button>
+    <div>
+      <label for="email">
+        <input class="emailNoticias" type="email" placeholder="ejemplo@email.com">
+        <button type="submit" class="enviarNoticias "><svg
+            class="icono__enviar icon-inline newsletter-btn svg-icon-primary" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512">
+            <path
+              d="M216.464 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L387.887 239H12c-6.627 0-12 5.373-12 12v10c0 6.627 5.373 12 12 12h375.887L209.393 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L233.434 36.465c-4.686-4.687-12.284-4.687-16.97 0z">
+            </path>
+          </svg></button>
       </label>
     </div>
   </section>
-
   <footer>
     <section class="fondo">
       <div class="barraFondo">
         <nav class="navFondo">
           <ul class="listaFondo">
-            <li><a class="inicioNav" aria-current="page" href="#">Inicio</a></li>
-            <li><a class="productosNav" href="pages/productos.html">Productos</a></li>
-            <li><a class="tipsNav" href="pages/tips.html">Tips</a></li>
-            <li><a class="ubicacionNav" href="pages/ubicacion.html">¿Donde estamos?</a></li>
-            <li><a class="contactoNav" href="pages/contacto.html">Contacto</a></li>
+            <li><a class="a__navFondo" aria-current="page" href="#">Inicio</a></li>
+            <li><a class="a__navFondo" href="pages/productos.html">Productos</a></li>
+            <li><a class="a__navFondo" href="pages/tips.html">Tips</a></li>
+            <li><a class="a__navFondo" href="pages/ubicacion.html">¿Donde estamos?</a></li>
+            <li><a class="a__navFondo" href="pages/contacto.html">Contacto</a></li>
           </ul>
         </nav>
       </div>
       <div class="redes">
         <p><strong> Seguinos en nuestras redes</strong></p>
-        <a href="https://www.instagram.com/algonatural.tienda/" target="_blank"><img class="logoInsta"
-            src="multimedia/instagram.png" alt="Logo Instagram"></a>
+        <a href="https://www.instagram.com/algonatural.tienda/" target="_blank"><svg class="icon-inline icon-lg"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path
+              d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+            </path>
+          </svg></a>
       </div>
     </section>
   </footer>
-
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
   </script>
@@ -162,7 +172,5 @@
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
 </body>
-
 </html>

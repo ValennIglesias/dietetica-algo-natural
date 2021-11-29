@@ -7,20 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <link rel="shortcut icon" href="../multimedia/logohtml.png">
-    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <script src="../js/scripts.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <meta name="keywords" content="Dietetica, productos saludables, av Directorio 1001 CABA">
-    <meta name="description" content="Somos una tienda de productos naturales, como frutas secas, cereales, legumbres, semillas, especias. Te esperamos en nuestra sucursal">
-    <title>¿Donde estamos? | Algo Natural | Dietetica</title>
+    <title>Iniciar Sesion| Algo-Natural-Dietetica</title>
 </head>
 <body>
     <header class=barraNavegacion>
         <section class="logos">
-            <div class="index__logo"><a href="../index.html"><img class="index__logo" id="logo"
-                        src=../multimedia/logo.jpg alt="Logo tienda"></a></div>
+            <div><a href="../index.html"><img id="logo" src=../multimedia/logo.jpg alt="Logo tienda"></a></div>
             <div class="iconosNav">
                 <div class="subMenu__iconos" data-dropdown>
                     <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
@@ -56,7 +50,7 @@
             </div>
         </section>
     </header>
-    <hr>
+    <hr class="linea">
     <section class="barraNav">
         <nav class="navIndex navbar navbar-expand-lg navbar-light bg-light ">
             <div class="barraIndex container-fluid ">
@@ -73,10 +67,10 @@
                             <a class="nav__item" aria-current="page" href="../pages/productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav__item" href="../pages/tips.html">Tips</a>
+                            <a class="nav__item" href="tips.html">Tips</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav__item" href="ubicacion.html">¿Donde estamos?</a>
+                            <a class="nav__item" href="../pages/ubicacion.html">¿Donde estamos?</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav__item" href="../pages/contacto.html">Contacto</a>
@@ -86,55 +80,65 @@
             </div>
         </nav>
     </section>
-    <section class="ubicacion">
-        <div class="tituloUbi">
-            <h1>¿Donde estamos?</h1>
-        </div>
-        <div class="mapa"><iframe class="googleMaps"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0114119829163!2d-58.4417699!3d-34.6291519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbc058452c29%3A0xfbd5c52e519d6361!2sAlgo%20Natural!5e0!3m2!1ses-419!2sar!4v1631745327335!5m2!1ses-419!2sar"
-                style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
-        <div class="info">
-            <p>Nos encontramos en av. Directorio 1001 CABA</p>
-            <p>Horario:</p>
-            <ul>
-                <li>Lunes a Viernes 9:00 a 20:00</li>
-                <li>Sabados 9:30 a 13:00</li>
-            </ul>
-        </div>
-        <div class="transporte">
-            <p><strong>Podes llegar por medio de autobus:</strong></p>
-            <ul>
-                <li>Linea <strong>97 Constitucion</strong></li>
-                <li>Linea <strong>88 Plaza de Miserere</strong></li>
-            </ul>
-            <p><strong>Subte:</strong></p>
-            <ul>
-                <li><strong>E Emilio Mitre</strong></li>
-            </ul>
-        </div>
+    <section class="formulario__sesion">
+        <nav class="breadcrumb__sesion" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="mi__bread2 breadcrumb">
+                <li class="breadcrumb-item"> <a class="bread__sesion" href="../index.html">Inicio</a></li>
+                <li class="breadcrumb-item"> <a class="bread__sesion" href="inicio_sesion.html">Mi Cuenta</a> </li>
+                <li class="breadcrumb-item"> <a class="bread__sesion" href="inicio_sesion.html">Iniciar Sesion</a>
+                </li>
+            </ol>
+        </nav>
+    <h1>Iniciá sesión</h1>
+    <div class="inicio__sesion">
+        <form action="">
+            <div class="emialForm">
+                <label class="email__sesion" for="email">Email:</label>
+                <input class="input__sesion" type="email" placeholder="ejemplo@email.com">
+            </div>
+            <div class="contrasenaForm">
+                <label class="contrasena" for="contraseña">Contraseña:</label>
+                <input class="input__sesion" type="password" placeholder="••••••••">
+            </div>
+            <div class="iniciarSesion">
+                <label for="enviar"></label>
+                <input class="enviar__sesion" type="submit" value="INICIAR SESION">
+            </div>
+        </form>
+        <p>Si todavia no te registraste hace <a class="a__registro" href="../pages/registro.html">clic aca</a></p>
+    </div>
     </section>
-    <section class="fondo">
-        <div class="barraFondo">
-            <nav class="navFondo">
-                <ul class="listaFondo">
-                    <li><a class="a__navFondo" href="../index.html">Inicio</a></li>
-                    <li><a class="a__navFondo" href="productos.html">Productos</a></li>
-                    <li><a class="a__navFondo" href="tips.html">Tips</a></li>
-                    <li><a class="a__navFondo" href="ubicacion.html">¿Donde estamos?</a></li>
-                    <li><a class="a__navFondo" href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="redes">
-            <p><strong> Seguinos en nuestras redes</strong></p>
-            <a  href="https://www.instagram.com/algonatural.tienda/" target="_blank"><svg class="icon-inline icon-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></a>
-        </div>
-    </section>
+    <footer>
+        <section class="fondo">
+            <div class="barraFondo">
+                <nav class="navFondo">
+                    <ul class="listaFondo">
+                        <li><a class="a__navFondo" href="../index.html">Inicio</a></li>
+                        <li><a class="a__navFondo" href="productos.html">Productos</a></li>
+                        <li><a class="a__navFondo" href="tips.html">Tips</a></li>
+                        <li><a class="a__navFondo" href="ubicacion.html">¿Donde estamos?</a></li>
+                        <li><a class="a__navFondo" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="redes">
+                <p><strong> Seguinos en nuestras redes</strong></p>
+                <a href="https://www.instagram.com/algonatural.tienda/" target="_blank"><svg class="icon-inline icon-lg"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                        </path>
+                    </svg></a>
+            </div>
+        </section>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"
         integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous">
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
