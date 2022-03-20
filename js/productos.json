@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Salsa Tahine",
+    "precio": 190,
+    "imagen": "../multimedia/producto_1.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Postrecito",
+    "precio": 90,
+    "imagen": "../multimedia/producto_2.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 3,
+    "nombre": "Helado",
+    "precio": 450,
+    "imagen": "../multimedia/producto_3.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Mix Energia",
+    "precio": 250,
+    "imagen": "../multimedia/producto.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 5,
+    "nombre": "Mix Running",
+    "precio": 250,
+    "imagen": "../multimedia/productoUno.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 6,
+    "nombre": "Mix Europeo",
+    "precio": 250,
+    "imagen": "../multimedia/productoDos.jpg",
+    "cantidad": 1
+  }
+]

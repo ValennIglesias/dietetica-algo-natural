@@ -122,6 +122,87 @@ hr {
   transition: 200ms;
 }
 
+#contadorCarrito{
+  color: #fff;
+}
+
+.finalizado{
+  display: none;
+}
+.modal-header{
+  background-color: #359c86;
+}
+.elementosCarrito{
+  display: inline;
+}
+
+.botonVaciar{
+  border-radius: 0.8rem;
+  border: solid 0.5px #fff;
+  background-color: #e70000;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  width: 7rem;
+}
+
+.botonVaciar:hover{
+  background-color: #ff0000b2;
+  color: rgba(0, 0, 0, 0.603);
+  transition: 150ms;
+}
+
+.sumarProducto{
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  padding: 0.1rem;
+  border: 0.1rem  solid rgb(0, 0, 0);
+  margin: 0.1rem;
+}
+.sumarProducto:hover{
+  transition: 300ms;
+  background-color: rgba(0, 0, 0, 0.170);
+
+}
+.restarProducto{
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  padding: 0.1rem 0.23rem;
+  border: 0.1rem  solid rgb(0, 0, 0);
+  margin: 0.1rem;
+}
+.restarProducto:hover{
+  transition: 300ms;
+  background-color: rgba(0, 0, 0, 0.170);
+
+}
+.eliminarProducto{
+  border-radius: 0.8rem;
+  border: solid 0.5px #fff;
+  background-color: #e70000;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  width: 5rem;
+}
+
+.eliminarProducto:hover{
+  background-color: #ff0000b2;
+  color: rgba(0, 0, 0, 0.603);
+transition: 150ms;
+}
+
+.botonesCarrito{
+  border-radius: 1rem;
+  border: solid 0.5px #fff;
+  background-color: #359c86;
+  color: #fff;
+  padding: 5px;
+  width: 6rem;
+}
+
+.botonesCarrito:hover{
+  background-color: #359c86a4;
+  color: rgba(0, 0, 0, 0.644)
+}
 #logo {
   display: inline-block;
   width: 100px;
