@@ -188,8 +188,7 @@ function cantidad0() {
             let filtrar = carrito.find(e=> e.id == boton[i].id)
             
             if (filtrar.cantidad == 0) {
-                
-                console.log(filtrar.cantidad);
+               
                 carrito.findIndex (e=> e.id == boton[i].parentNode.id)
                 carrito.splice(filtrar,1)
             }
